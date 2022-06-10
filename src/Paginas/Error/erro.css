@@ -1,0 +1,23 @@
+.pg-notfound{
+    display: flex;
+    width: 100%;
+    height: calc(100vh - 60px);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pg-notfound h1{
+    font-size: 120px;
+}
+
+.pg-notfound a{
+    text-decoration: none;
+    background-color: aquamarine;
+    padding: 10px;
+    color: #000;
+    font-weight: bold;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
